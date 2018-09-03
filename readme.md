@@ -48,20 +48,20 @@ cd joke-gen
 
 ### Create an azure resource group via azure portal
 
-![create-resource-group.png](resources/AF9E4FC0CC209E81AB244E1010E39DC6.png)
+![create-resource-group.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/AF9E4FC0CC209E81AB244E1010E39DC6.png)
 
 ### Create an azure function app in the resource group
 
-![create-functions-app.png](resources/94E4477C7D4FAD123BD5A6D3B0E67CA3.png)
+![create-functions-app.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/94E4477C7D4FAD123BD5A6D3B0E67CA3.png)
 
 Select functions app from list
 
-![functions-app.png](resources/08A7FF7654A4E158E0EE45BCD326F2E6.png)
+![functions-app.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/08A7FF7654A4E158E0EE45BCD326F2E6.png)
 
 * `Click create`
 
 
-![create-function-app-form.png](resources/FCECB2E9BE95FB554EA0DF93E92476ED.png)
+![create-function-app-form.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/FCECB2E9BE95FB554EA0DF93E92476ED.png)
 
 - Give an application name
 - Select your resource group previously created
@@ -71,7 +71,7 @@ Select functions app from list
 
 ### Get publish profile
 
-![publish-profile.png](resources/8CC9BC5B600DAE6E85A1BFFF3DFF7A0A.png)
+![publish-profile.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/8CC9BC5B600DAE6E85A1BFFF3DFF7A0A.png)
 
 
 * `Click Get publish profile`
@@ -79,7 +79,7 @@ Select functions app from list
 
 You should have file with a xml content looking like this
 
-![publish-setings.png](resources/A2D3A1FD2D3B29DA8F559E413B5B2BC4.png)
+![publish-setings.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/A2D3A1FD2D3B29DA8F559E413B5B2BC4.png)
 
 Create a very simple script to create kubernetes secret containing the publish profile data
 
@@ -107,7 +107,7 @@ bash gen-secret.sh publish-profile-filename yaml-secret-file-name
 
 You should get something like this
 
-![secret.png](resources/58D493AE4C751A5C55D56E1C5B219DEF.png)
+![secret.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/58D493AE4C751A5C55D56E1C5B219DEF.png)
 
 
 ### Create the secret
@@ -143,11 +143,11 @@ glooctl secret get
 
 For example a function that retrieve Chuck Norris jokes from an api
 
-![function-editor.png](resources/59CD9F026AC71A57C50C83A964B6D627.png)
+![function-editor.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/59CD9F026AC71A57C50C83A964B6D627.png)
 
 ## Save and test the function
 
-![test-func.png](resources/95C7F2297825B092BE39FE84EE29F276.png)
+![test-func.png](https://github.com/herveleclerc/gloo-azure/blob/master/resources/95C7F2297825B092BE39FE84EE29F276.png)
 
 
 ---
