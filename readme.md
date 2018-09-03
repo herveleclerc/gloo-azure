@@ -52,7 +52,7 @@ cd joke-gen
 
 ### Create an azure function app in the resource group
 
-![create-functions-app.png](resources/94E4477C7D4FAD123BD5A6D3B0E67CA3.png =646x509)
+![create-functions-app.png](../master/resources/94E4477C7D4FAD123BD5A6D3B0E67CA3.png =646x509)
 
 Select functions app from list
 
