@@ -86,7 +86,7 @@ Create a very simple script to create kubernetes secret containing the publish p
 (adjust the name of the secret in metadata)
 
 ```shell
-#!bin/bash
+#!/bin/bash
 DATA=$(cat $1 | base64)
 
 tee $2 <<EOF
